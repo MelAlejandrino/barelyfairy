@@ -17,7 +17,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://barelyfairy.com"),
+  metadataBase: new URL("https://barelyfairy.vercel.com"),
   title: {
     default: "Barely Fairy",
     template: "%s | Barely Fairy",
