@@ -82,7 +82,6 @@ export function useProducts(filters?: UseProductsFilters): UseProductsReturn {
 
     fetchProducts();
   }, [
-    filters,
     currentPage,
     filters?.categoryId,
     filters?.minPrice,
