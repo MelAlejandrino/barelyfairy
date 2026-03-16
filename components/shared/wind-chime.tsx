@@ -1,0 +1,469 @@
+export default function WindChime() {
+  return (
+    <div className="pointer-events-none fixed right-4 top-16 z-40 select-none">
+      <svg
+        width="160"
+        height="210"
+        viewBox="220 0 240 210"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <style>{`
+          @keyframes sw1{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(8deg)}}
+          @keyframes sw2{0%,100%{transform:rotate(7deg)}50%{transform:rotate(-9deg)}}
+          @keyframes sw3{0%,100%{transform:rotate(-9deg)}50%{transform:rotate(8deg)}}
+          @keyframes sw4{0%,100%{transform:rotate(8deg)}50%{transform:rotate(-7deg)}}
+          @keyframes sw5{0%,100%{transform:rotate(-7deg)}50%{transform:rotate(9deg)}}
+          .b1{transform-origin:300px 18px;animation:sw1 3.2s ease-in-out infinite}
+          .b2{transform-origin:336px 18px;animation:sw2 4.1s ease-in-out infinite}
+          .b3{transform-origin:372px 18px;animation:sw3 2.9s ease-in-out infinite}
+          .b4{transform-origin:408px 18px;animation:sw4 3.7s ease-in-out infinite}
+          .b5{transform-origin:444px 18px;animation:sw5 3.4s ease-in-out infinite}
+          @media(prefers-reduced-motion:reduce){.b1,.b2,.b3,.b4,.b5{animation:none}}
+        `}</style>
+
+        <path
+          d="M220 18 Q370 12 520 18"
+          fill="none"
+          stroke="#ccc"
+          strokeWidth="1"
+          opacity="0.5"
+        />
+
+        <g className="b1">
+          <line
+            x1="300"
+            y1="18"
+            x2="300"
+            y2="36"
+            stroke="#e8a0a0"
+            strokeWidth="0.8"
+          />
+          <path
+            d="M284 50 Q284 36 300 36 Q316 36 316 50 Q316 68 300 72 Q284 68 284 50Z"
+            fill="#fce8e6"
+            stroke="#e8a0a0"
+            strokeWidth="1"
+          />
+          <path
+            d="M291 43 Q300 40 309 43"
+            fill="none"
+            stroke="#e8a0a0"
+            strokeWidth="0.5"
+            opacity="0.5"
+          />
+          <circle cx="295" cy="56" r="1.8" fill="#e8a0a0" opacity="0.3" />
+          <circle cx="305" cy="60" r="1.2" fill="#e8a0a0" opacity="0.3" />
+          <line
+            x1="300"
+            y1="72"
+            x2="300"
+            y2="82"
+            stroke="#e8a0a0"
+            strokeWidth="0.7"
+          />
+          <rect
+            x="294"
+            y="82"
+            width="12"
+            height="46"
+            rx="1.5"
+            fill="white"
+            stroke="#e8a0a0"
+            strokeWidth="0.8"
+          />
+          <line
+            x1="297"
+            y1="90"
+            x2="303"
+            y2="90"
+            stroke="#e8a0a0"
+            strokeWidth="0.5"
+            opacity="0.4"
+          />
+          <line
+            x1="297"
+            y1="96"
+            x2="303"
+            y2="96"
+            stroke="#e8a0a0"
+            strokeWidth="0.5"
+            opacity="0.4"
+          />
+          <line
+            x1="297"
+            y1="102"
+            x2="303"
+            y2="102"
+            stroke="#e8a0a0"
+            strokeWidth="0.5"
+            opacity="0.4"
+          />
+          <line
+            x1="297"
+            y1="108"
+            x2="303"
+            y2="108"
+            stroke="#e8a0a0"
+            strokeWidth="0.5"
+            opacity="0.4"
+          />
+        </g>
+
+        <g className="b2">
+          <line
+            x1="336"
+            y1="18"
+            x2="336"
+            y2="34"
+            stroke="#8fd4be"
+            strokeWidth="0.8"
+          />
+          <path
+            d="M319 50 Q319 34 336 34 Q353 34 353 50 Q353 70 336 74 Q319 70 319 50Z"
+            fill="#dff2ec"
+            stroke="#8fd4be"
+            strokeWidth="1"
+          />
+          <path
+            d="M326 43 Q336 40 346 43"
+            fill="none"
+            stroke="#8fd4be"
+            strokeWidth="0.5"
+            opacity="0.5"
+          />
+          <circle cx="330" cy="56" r="2" fill="#8fd4be" opacity="0.3" />
+          <circle cx="341" cy="61" r="1.3" fill="#8fd4be" opacity="0.3" />
+          <line
+            x1="336"
+            y1="74"
+            x2="336"
+            y2="85"
+            stroke="#8fd4be"
+            strokeWidth="0.7"
+          />
+          <rect
+            x="329"
+            y="85"
+            width="14"
+            height="54"
+            rx="1.5"
+            fill="white"
+            stroke="#8fd4be"
+            strokeWidth="0.8"
+          />
+          <line
+            x1="332"
+            y1="94"
+            x2="342"
+            y2="94"
+            stroke="#8fd4be"
+            strokeWidth="0.5"
+            opacity="0.4"
+          />
+          <line
+            x1="332"
+            y1="101"
+            x2="342"
+            y2="101"
+            stroke="#8fd4be"
+            strokeWidth="0.5"
+            opacity="0.4"
+          />
+          <line
+            x1="332"
+            y1="108"
+            x2="342"
+            y2="108"
+            stroke="#8fd4be"
+            strokeWidth="0.5"
+            opacity="0.4"
+          />
+          <line
+            x1="332"
+            y1="115"
+            x2="342"
+            y2="115"
+            stroke="#8fd4be"
+            strokeWidth="0.5"
+            opacity="0.4"
+          />
+          <line
+            x1="332"
+            y1="122"
+            x2="342"
+            y2="122"
+            stroke="#8fd4be"
+            strokeWidth="0.5"
+            opacity="0.4"
+          />
+        </g>
+
+        <g className="b3">
+          <line
+            x1="372"
+            y1="18"
+            x2="372"
+            y2="30"
+            stroke="#c9a8e0"
+            strokeWidth="0.8"
+          />
+          <path
+            d="M352 50 Q352 30 372 30 Q392 30 392 50 Q392 76 372 82 Q352 76 352 50Z"
+            fill="#ede3f5"
+            stroke="#c9a8e0"
+            strokeWidth="1"
+          />
+          <path
+            d="M360 41 Q372 37 384 41"
+            fill="none"
+            stroke="#c9a8e0"
+            strokeWidth="0.5"
+            opacity="0.5"
+          />
+          <circle
+            cx="365"
+            cy="56"
+            r="3.5"
+            fill="none"
+            stroke="#c9a8e0"
+            strokeWidth="0.7"
+            opacity="0.4"
+          />
+          <circle cx="365" cy="56" r="1.2" fill="#c9a8e0" opacity="0.3" />
+          <circle
+            cx="380"
+            cy="52"
+            r="2.5"
+            fill="none"
+            stroke="#c9a8e0"
+            strokeWidth="0.6"
+            opacity="0.3"
+          />
+          <line
+            x1="372"
+            y1="82"
+            x2="372"
+            y2="94"
+            stroke="#c9a8e0"
+            strokeWidth="0.7"
+          />
+          <rect
+            x="364"
+            y="94"
+            width="16"
+            height="62"
+            rx="1.5"
+            fill="white"
+            stroke="#c9a8e0"
+            strokeWidth="0.8"
+          />
+          <line
+            x1="368"
+            y1="103"
+            x2="376"
+            y2="103"
+            stroke="#c9a8e0"
+            strokeWidth="0.5"
+            opacity="0.4"
+          />
+          <line
+            x1="368"
+            y1="110"
+            x2="376"
+            y2="110"
+            stroke="#c9a8e0"
+            strokeWidth="0.5"
+            opacity="0.4"
+          />
+          <line
+            x1="368"
+            y1="117"
+            x2="376"
+            y2="117"
+            stroke="#c9a8e0"
+            strokeWidth="0.5"
+            opacity="0.4"
+          />
+          <line
+            x1="368"
+            y1="124"
+            x2="376"
+            y2="124"
+            stroke="#c9a8e0"
+            strokeWidth="0.5"
+            opacity="0.4"
+          />
+          <line
+            x1="368"
+            y1="131"
+            x2="376"
+            y2="131"
+            stroke="#c9a8e0"
+            strokeWidth="0.5"
+            opacity="0.4"
+          />
+          <line
+            x1="368"
+            y1="138"
+            x2="376"
+            y2="138"
+            stroke="#c9a8e0"
+            strokeWidth="0.5"
+            opacity="0.4"
+          />
+        </g>
+
+        <g className="b4">
+          <line
+            x1="408"
+            y1="18"
+            x2="408"
+            y2="35"
+            stroke="#f0b8a0"
+            strokeWidth="0.8"
+          />
+          <path
+            d="M392 51 Q392 35 408 35 Q424 35 424 51 Q424 70 408 74 Q392 70 392 51Z"
+            fill="#fde8dc"
+            stroke="#f0b8a0"
+            strokeWidth="1"
+          />
+          <path
+            d="M399 44 Q408 41 417 44"
+            fill="none"
+            stroke="#f0b8a0"
+            strokeWidth="0.5"
+            opacity="0.5"
+          />
+          <circle cx="402" cy="58" r="1.8" fill="#f0b8a0" opacity="0.3" />
+          <circle cx="413" cy="54" r="1.3" fill="#f0b8a0" opacity="0.3" />
+          <line
+            x1="408"
+            y1="74"
+            x2="408"
+            y2="85"
+            stroke="#f0b8a0"
+            strokeWidth="0.7"
+          />
+          <rect
+            x="401"
+            y="85"
+            width="14"
+            height="50"
+            rx="1.5"
+            fill="white"
+            stroke="#f0b8a0"
+            strokeWidth="0.8"
+          />
+          <line
+            x1="404"
+            y1="94"
+            x2="412"
+            y2="94"
+            stroke="#f0b8a0"
+            strokeWidth="0.5"
+            opacity="0.4"
+          />
+          <line
+            x1="404"
+            y1="101"
+            x2="412"
+            y2="101"
+            stroke="#f0b8a0"
+            strokeWidth="0.5"
+            opacity="0.4"
+          />
+          <line
+            x1="404"
+            y1="108"
+            x2="412"
+            y2="108"
+            stroke="#f0b8a0"
+            strokeWidth="0.5"
+            opacity="0.4"
+          />
+          <line
+            x1="404"
+            y1="115"
+            x2="412"
+            y2="115"
+            stroke="#f0b8a0"
+            strokeWidth="0.5"
+            opacity="0.4"
+          />
+        </g>
+
+        <g className="b5">
+          <line
+            x1="444"
+            y1="18"
+            x2="444"
+            y2="37"
+            stroke="#e8a0a0"
+            strokeWidth="0.8"
+          />
+          <path
+            d="M429 52 Q429 37 444 37 Q459 37 459 52 Q459 68 444 72 Q429 68 429 52Z"
+            fill="#fce8e6"
+            stroke="#e8a0a0"
+            strokeWidth="1"
+          />
+          <path
+            d="M436 45 Q444 42 452 45"
+            fill="none"
+            stroke="#e8a0a0"
+            strokeWidth="0.5"
+            opacity="0.5"
+          />
+          <circle cx="439" cy="58" r="1.5" fill="#e8a0a0" opacity="0.3" />
+          <circle cx="449" cy="55" r="1" fill="#e8a0a0" opacity="0.3" />
+          <line
+            x1="444"
+            y1="72"
+            x2="444"
+            y2="83"
+            stroke="#e8a0a0"
+            strokeWidth="0.7"
+          />
+          <rect
+            x="438"
+            y="83"
+            width="12"
+            height="42"
+            rx="1.5"
+            fill="white"
+            stroke="#e8a0a0"
+            strokeWidth="0.8"
+          />
+          <line
+            x1="441"
+            y1="91"
+            x2="447"
+            y2="91"
+            stroke="#e8a0a0"
+            strokeWidth="0.5"
+            opacity="0.4"
+          />
+          <line
+            x1="441"
+            y1="97"
+            x2="447"
+            y2="97"
+            stroke="#e8a0a0"
+            strokeWidth="0.5"
+            opacity="0.4"
+          />
+          <line
+            x1="441"
+            y1="103"
+            x2="447"
+            y2="103"
+            stroke="#e8a0a0"
+            strokeWidth="0.5"
+            opacity="0.4"
+          />
+        </g>
+      </svg>
+    </div>
+  );
+}
