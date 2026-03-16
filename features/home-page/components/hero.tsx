@@ -12,7 +12,7 @@ export default function Hero() {
         variant="secondary"
         className="mb-4 rounded-full border-none bg-white/60 text-xs font-medium text-rose-400"
       >
-        🌸 handmade with love
+        🌸 where wild things grow
       </Badge>
 
       <h1 className="mb-3 font-serif text-4xl leading-tight text-rose-900">

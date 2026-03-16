@@ -48,9 +48,7 @@ export default function ProductsPage() {
     <main className="mx-auto flex w-full max-w-lg flex-col gap-6 px-5 py-6">
       <div>
         <h1 className="font-serif text-2xl text-rose-900">Our pieces</h1>
-        <p className="mt-1 text-xs text-rose-400">
-          All handmade with care and love 🧶
-        </p>
+        <p className="mt-1 text-xs text-rose-400">Meant to bloom for you. 🌸</p>
       </div>
 
       <ProductSearch value={search} onChange={setSearch} />
