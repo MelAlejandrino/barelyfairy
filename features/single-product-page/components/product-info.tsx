@@ -40,7 +40,7 @@ export default function ProductInfo({product}: ProductInfoProps) {
             {product.hasVariants && product.variants?.length && (
                 <div className="flex flex-col gap-2">
                     <p className="text-[11px] font-medium uppercase tracking-widest text-rose-300">
-                        Sizes
+                        Variants
                     </p>
                     <div className="flex flex-wrap gap-2">
                         {product.variants.map((v) => (
