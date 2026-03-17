@@ -3,7 +3,6 @@ import { Playfair_Display, DM_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/shared/navbar";
 import Footer from "@/components/shared/footer";
-import WindChime from "@/components/shared/wind-chime";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -65,7 +64,6 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${playfair.variable} ${dmSans.variable}`}>
       <body className="flex min-h-svh flex-col bg-rose-50/30 font-sans antialiased">
-        <WindChime />
         <Navbar />
         <div className="flex-1">{children}</div>
         <Footer />
